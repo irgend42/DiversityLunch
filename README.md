@@ -206,7 +206,7 @@ Using the Maven tool window or via `./mvnw package` the project can be compiled,
 <h3>  2. resources </h3>
 
 Via the Docker Compose file, a database and SMTP server can be started for development.
-The command ``docker-compoise up -d db`` can be used for the database
+The command ``docker-compose up -d db`` can be used for the database
 and the command ``docker-compose up -d mailhog`` for the SMTP server.
 
 The application.yml under ``src/main/resources`` must be adapted for local development.
